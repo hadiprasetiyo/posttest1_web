@@ -25,28 +25,43 @@
         <h1>form</h1>
     </section>
     <section class="contact">
-            <div class="form">
-                <legend>Formulir Pendaftaran Bootcamp</legend><br> 
-                <form action="">
-                    Nama :
-                    <input type="text"/><br><br>
-                    Email :
-                    <input type="email"/><br><br>
-                    Password :
-                    <input type="password"/><br><br>
-                    Gender :
-                    <input type="radio"/>Laki-Laki <input type="radio"/>Perempuan<br><br>
-                    Jadwal Kelas :
-                    <input type="checkbox"/>Pagi <input type="checkbox"/>Siang <input type="checkbox"/>Malam<br><br>
-                    Tingkat kepuasan pada website :
-                    <select>
-                        <option>Kurang Puas</option>
-                        <option>Puas</option>
-                        <option>Sangat Puas</option>
-                    </select><br><br>
-                    File :
-                    <input type="file"><br><br>
-                    <button type="button" id="masuk">Select</button>
+            <div class="form"><br>
+                <h2>Formulir Pendaftaran Bootcamp</h2><br> 
+                <form>
+                    <label for="nama">Nama Lengkap:</label><br>
+                    <input type="text" id="nama" name="nama"><br>
+            
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email"><br>
+            
+                    <label for="alamat">Alamat:</label><br>
+                    <textarea id="alamat" name="alamat" rows="5px" cols="85px"></textarea><br>
+            
+                    <label for="jenjang">Jenjang:</label><br>
+                    <select id="jenjang" name="jenjang">
+                        <option value="SD">SD</option>
+                        <option value="SMP">SMP</option>
+                        <option value="SMA">SMA</option>
+                    </select><br>
+            
+                    <label for="mata_pelajaran">Jadwal Kelas:</label><br>
+                    <input type="checkbox" id="pagi" name="jadwal_kelas" value="pagi">
+                    <label for="pagi">Pagi</label><br>
+                    <input type="checkbox" id="siang" name="jadwal_kelas" value="siang">
+                    <label for="siang">Siang</label><br>
+                    <input type="checkbox" id="malam" name="jadwal_kelas value="malam">
+                    <label for="kimia">Malam</label><br>
+            
+                    <label for="jadwal">Jam :</label><br>
+                    <input type="radio" id="pagi" name="jadwal" value="Pagi">
+                    <label for="pagi">09.00</label><br>
+                    <input type="radio" id="siang" name="jadwal" value="Siang">
+                    <label for="siang">14.00</label><br>
+                    <input type="radio" id="malam" name="jadwal" value="Sore">
+                    <label for="sore">20.00</label><br>
+            
+                    <input type="submit" value="Daftar">
+                </form>
                 </form>
             </div>
         </div>
